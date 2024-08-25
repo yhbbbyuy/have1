@@ -2,7 +2,7 @@
 name: sixhoury
 on:
   schedule:
-    - cron: '5 */8 * * *'
+    - cron: '15 */8 * * *'
 jobs:
   build:
     runs-on: windows-latest
